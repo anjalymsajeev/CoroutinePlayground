@@ -1,2 +1,43 @@
+
 # CoroutinePlayground
-Kotlin Coroutines playground with practical Android examples and mini experiments.
+
+Practical Kotlin Coroutines playground for learning coroutine concepts through Android examples.
+
+## Topics Covered
+
+- [x] Basics
+- [x] Async / Await
+
+## Upcoming Topics
+
+- [ ] Dispatchers
+- [ ] Cancellation
+- [ ] Timeout
+- [ ] Exception Handling
+- [ ] Structured Concurrency
+- [ ] Retry Mechanism
+
+## Built With
+
+- Kotlin
+- Coroutines
+- Android SDK
+- XML
+- ViewBinding
+
+## Project Structure
+
+```text
+basics/
+asyncawait/
+dispatchers/
+cancellation/
+```
+
+## Learning Goals
+
+- Understand coroutine fundamentals
+- Learn concurrency in Android
+- Practice structured concurrency
+- Build real-world coroutine examples
+
