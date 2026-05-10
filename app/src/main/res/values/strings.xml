@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">CoroutinePlayground2</string>
+    <string name="basics">Basics</string>
+    <string name="asyn">Asyn</string>
+    <string name="loading">Loading</string>
 </resources>

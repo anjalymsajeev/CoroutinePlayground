@@ -4,12 +4,15 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import com.anjaly.coroutineplayground2.asyncawait.AsyncAwaitActivity
 import com.anjaly.coroutineplayground2.basics.BasicsActivity
 import com.anjaly.coroutineplayground2.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
     lateinit var basicButton: Button
+    lateinit var asyncButton: Button
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -21,9 +24,16 @@ class MainActivity : AppCompatActivity() {
         startActivity(Intent(this, BasicsActivity::class.java))
     }
 
+    fun didClickAsyncButton() {
+        startActivity(Intent(this, AsyncAwaitActivity::class.java))
+    }
+
     fun bind() {
         basicButton = binding.activityMainBasic
+        asyncButton = binding.activityMainAsyn
 
         basicButton.setOnClickListener { didClickBasicButton() }
+        asyncButton.setOnClickListener { didClickAsyncButton() }
+
     }
 }

@@ -5,26 +5,27 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:padding="16dp"
+    tools:context=".asyncawait.AsyncAwaitActivity">
 
-    <Button
-        android:id="@+id/activity_main_basic"
+    <TextView
+        android:id="@+id/result_text_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/basics"
-        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Result"
+        android:textSize="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/activity_main_asyn"
+        android:id="@+id/fetch_button"
+        android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/asyn"
-        android:layout_marginTop="20dp"
+        android:text="Fetch Data"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/activity_main_basic" />
-
+        app:layout_constraintTop_toBottomOf="@+id/result_text_view" />
 </androidx.constraintlayout.widget.ConstraintLayout>
