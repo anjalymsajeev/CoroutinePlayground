@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingHorizontal="16dp"
     tools:context=".MainActivity">
 
     <Button
@@ -26,5 +27,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/activity_main_basic" />
+
+    <Button
+        android:id="@+id/activity_main_dispatchers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_main_asyn"
+        android:layout_marginTop="20dp"
+        android:text="@string/dispatcher"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

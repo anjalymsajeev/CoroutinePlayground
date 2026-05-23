@@ -3,4 +3,10 @@
     <string name="basics">Basics</string>
     <string name="asyn">Asyn</string>
     <string name="loading">Loading</string>
+    <string name="dispatcher">Dispatcher</string>
+    <string name="result">Result</string>
+    <string name="io_dispatchers">IO Dispatchers</string>
+    <string name="default_dispatchers">Default</string>
+    <string name="starting">Starting</string>
+    <string name="calculating">calculating</string>
 </resources>

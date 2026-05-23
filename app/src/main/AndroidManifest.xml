@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CoroutinePlayground2">
         <activity
+            android:name=".dispatchers.DispatcherActivity"
+            android:exported="false" />
+        <activity
             android:name=".asyncawait.AsyncAwaitActivity"
             android:exported="false" />
         <activity
