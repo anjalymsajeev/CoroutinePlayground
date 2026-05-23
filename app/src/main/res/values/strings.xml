@@ -9,4 +9,8 @@
     <string name="default_dispatchers">Default</string>
     <string name="starting">Starting</string>
     <string name="calculating">calculating</string>
+    <string name="cancellation">Cancellation</string>
+    <string name="start_download">Start Download</string>
+    <string name="stop_download">Stop Download</string>
+    <string name="download_cancelled">Download Cancelled</string>
 </resources>

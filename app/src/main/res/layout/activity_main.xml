@@ -39,4 +39,15 @@
         android:text="@string/dispatcher"
         />
 
+    <Button
+        android:id="@+id/activity_main_cancellation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_main_dispatchers"
+        android:layout_marginTop="20dp"
+        android:text="@string/cancellation"
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
