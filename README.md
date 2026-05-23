@@ -7,10 +7,10 @@ Practical Kotlin Coroutines playground for learning coroutine concepts through A
 
 - [x] Basics
 - [x] Async / Await
+- [x] Dispatchers 
 
 ## Upcoming Topics
 
-- [ ] Dispatchers
 - [ ] Cancellation
 - [ ] Timeout
 - [ ] Exception Handling
