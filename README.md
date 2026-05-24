@@ -32,6 +32,7 @@ basics/
 asyncawait/
 dispatchers/
 cancellation/
+Timeout/
 ```
 
 ## Learning Goals
