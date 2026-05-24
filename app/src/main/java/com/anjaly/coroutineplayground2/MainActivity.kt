@@ -9,6 +9,7 @@ import com.anjaly.coroutineplayground2.basics.BasicsActivity
 import com.anjaly.coroutineplayground2.cancellation.CancellationActivity
 import com.anjaly.coroutineplayground2.databinding.ActivityMainBinding
 import com.anjaly.coroutineplayground2.dispatchers.DispatcherActivity
+import com.anjaly.coroutineplayground2.timeout.TimeoutActivity
 
 class MainActivity : AppCompatActivity() {
     lateinit var binding: ActivityMainBinding
@@ -16,6 +17,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var asyncButton: Button
     lateinit var dispatchersButton: Button
     lateinit var cancellationButton: Button
+    lateinit var timeoutButton: Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,15 +42,21 @@ class MainActivity : AppCompatActivity() {
         startActivity(Intent(this, CancellationActivity::class.java))
     }
 
+    private fun didClickTimeoutButton(){
+        startActivity(Intent(this, TimeoutActivity::class.java))
+    }
+
     fun bind() {
         basicButton = binding.activityMainBasic
         asyncButton = binding.activityMainAsyn
         dispatchersButton = binding.activityMainDispatchers
         cancellationButton = binding.activityMainCancellation
+        timeoutButton = binding.activityMainTimeOut
 
         basicButton.setOnClickListener { didClickBasicButton() }
         asyncButton.setOnClickListener { didClickAsyncButton() }
         dispatchersButton.setOnClickListener { didClickDispatchersButton() }
         cancellationButton.setOnClickListener { didClickCancellationButton() }
+        timeoutButton.setOnClickListener { didClickTimeoutButton() }
     }
 }

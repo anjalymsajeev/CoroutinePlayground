@@ -13,4 +13,9 @@
     <string name="start_download">Start Download</string>
     <string name="stop_download">Stop Download</string>
     <string name="download_cancelled">Download Cancelled</string>
+    <string name="timeout">Timeout</string>
+    <string name="start">Start</string>
+    <string name="start_with_null">StartWithNull</string>
+    <string name="retry">Retry</string>
+    <string name="retry_again">Retry Again</string>
 </resources>

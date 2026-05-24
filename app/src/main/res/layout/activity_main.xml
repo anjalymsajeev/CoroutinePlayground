@@ -12,8 +12,8 @@
         android:id="@+id/activity_main_basic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/basics"
         android:layout_marginTop="20dp"
+        android:text="@string/basics"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -22,8 +22,8 @@
         android:id="@+id/activity_main_asyn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/asyn"
         android:layout_marginTop="20dp"
+        android:text="@string/asyn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/activity_main_basic" />
@@ -32,22 +32,30 @@
         android:id="@+id/activity_main_dispatchers"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/activity_main_asyn"
         android:layout_marginTop="20dp"
         android:text="@string/dispatcher"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_main_asyn" />
 
     <Button
         android:id="@+id/activity_main_cancellation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/activity_main_dispatchers"
         android:layout_marginTop="20dp"
         android:text="@string/cancellation"
-        />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_main_dispatchers" />
+
+    <Button
+        android:id="@+id/activity_main_time_out"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/timeout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activity_main_cancellation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

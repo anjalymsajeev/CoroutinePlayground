@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CoroutinePlayground2">
         <activity
+            android:name=".timeout.TimeoutActivity"
+            android:exported="false" />
+        <activity
             android:name=".cancellation.CancellationActivity"
             android:exported="false" />
         <activity
